@@ -24,7 +24,7 @@ class SearchBarWidget extends StatelessWidget {
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(AppSizes.borderRadiusLg),
             color: AppColors.white,
-            boxShadow: customeShadow.searchBarShadow),
+            boxShadow: CustomeShadow.searchBarShadow),
         child: Row(
           // mainAxisAlignment: MainAxisAlignment.center,
           children: [

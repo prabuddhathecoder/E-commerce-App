@@ -26,9 +26,9 @@ class VerticalImageWidget extends StatelessWidget {
       child: Column(
         children: [
           CircularContainer(
-            heigth: 56,
+            height: 56,
             width: 56,
-            backgraoundColor:
+            backgroundColor:
                 bgColor ?? (dark ? AppColors.dark : AppColors.white),
             padding: const EdgeInsets.all(AppSizes.sm),
             child: Image.asset(

@@ -1,4 +1,5 @@
 import 'package:ecommerce/features/authentication/screens/shop/home/home_screen.dart';
+import 'package:ecommerce/features/authentication/screens/shop/store/store_screen.dart';
 import 'package:ecommerce/utils/constant/app_colors.dart';
 import 'package:ecommerce/utils/helper/function_helper.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +32,7 @@ class NavigationMenu extends StatelessWidget {
           ),
           destinations: const [
             NavigationDestination(icon: Icon(Iconsax.home), label: "Home"),
-            NavigationDestination(icon: Icon(Iconsax.shop), label: "Shop"),
+            NavigationDestination(icon: Icon(Iconsax.shop), label: "Store"),
             NavigationDestination(icon: Icon(Iconsax.heart), label: "Wishlist"),
             NavigationDestination(icon: Icon(Iconsax.user), label: "Profile")
           ],
@@ -46,7 +47,7 @@ class NavagationController extends GetxController {
 
   List<Widget> screen = [
     const HomeScreen(),
-    const Center(child: Text("Shop")),
+    const StoreScreen(),
     const Center(child: Text("Wishlist")),
     const Center(child: Text("Profile")),
   ];

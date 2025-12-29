@@ -62,7 +62,6 @@ class AppImages {
   static const String homeBanner4 = 'assets/banners/banner_4.jpg';
   static const String homeBanner5 = 'assets/banners/banner_5.jpg';
 
-  
   // -----[Products]-----
   // 1
   static const String productImage1 = 'assets/products/product 1.png';
@@ -89,9 +88,11 @@ class AppImages {
   // 10
   static const String productImage10 = 'assets/products/product 10.png';
   // 11
-  static const String productImage11 = 'assets/products/product 11 bata socks.png';
+  static const String productImage11 =
+      'assets/products/product 11 bata socks.png';
   // 12
-  static const String productImage12 = 'assets/products/product 12 bata socks.png';
+  static const String productImage12 =
+      'assets/products/product 12 bata socks.png';
   // 13
   static const String productImage13 = 'assets/products/product 13.png';
   // 14
@@ -99,12 +100,16 @@ class AppImages {
   // 15
   static const String productImage15 = 'assets/products/product 15.png';
   // 16
-  static const String productImage16a = 'assets/products/product 16 breakout jacket.png';
-  static const String productImage16b = 'assets/products/product 16 1 breakout jacket.png';
+  static const String productImage16a =
+      'assets/products/product 16 breakout jacket.png';
+  static const String productImage16b =
+      'assets/products/product 16 1 breakout jacket.png';
   // 17
-  static const String productImage17 = 'assets/products/product 17 breakout shirt.png';
+  static const String productImage17 =
+      'assets/products/product 17 breakout shirt.png';
   // 18
-  static const String productImage18 = 'assets/products/product 18 breakout wide shirt.png';
+  static const String productImage18 =
+      'assets/products/product 18 breakout wide shirt.png';
   // 19
   static const String productImage19a = 'assets/products/product 19.png';
   static const String productImage19b = 'assets/products/product 19 1.png';
@@ -144,7 +149,8 @@ class AppImages {
   // 35
   static const String productImage35 = 'assets/products/product 35.png';
   // 36
-  static const String productImage36 = 'assets/products/product 36 j. sun cream.png';
+  static const String productImage36 =
+      'assets/products/product 36 j. sun cream.png';
   // 37
   static const String productImage37 = 'assets/products/product 37.png';
   // 38
@@ -188,9 +194,11 @@ class AppImages {
   // 55
   static const String productImage55 = 'assets/products/product 55.png';
   // 56
-  static const String productImage56 = 'assets/products/product 56 breakout.png';
+  static const String productImage56 =
+      'assets/products/product 56 breakout.png';
   // 57
-  static const String productImage57 = 'assets/products/product 57 breakout.png';
+  static const String productImage57 =
+      'assets/products/product 57 breakout.png';
   // 58
   static const String productImage58 = 'assets/products/product 58.png';
   // 59
@@ -215,4 +223,19 @@ class AppImages {
   static const String productImage67c = 'assets/products/product 67 3.png';
   // 68
   static const String productImage68 = 'assets/products/product 68.png';
+
+  // Brands
+  static const String adidasLogo = 'assets/brands/adidas.jpg';
+  static const String appleLogo = 'assets/brands/apple.jpg';
+  static const String bataLogo = 'assets/brands/bata.png';
+  static const String bloodyLogo = 'assets/brands/bloody.png';
+  static const String breakoutLogo = 'assets/brands/breakout.jpg';
+  static const String dariMoochLogo = 'assets/brands/dari_mooch.png';
+  static const String hpLogo = 'assets/brands/hp.jpg';
+  static const String interWoodLogo = 'assets/brands/interwood.jpeg';
+  static const String jLogo = 'assets/brands/j..png';
+  static const String nDURELogo = 'assets/brands/ndure.png';
+  static const String nikeLogo = 'assets/brands/nike.png';
+  static const String northStarLogo = 'assets/brands/north_star.jpg';
+  static const String poloLogo = 'assets/brands/polo.png';
 }
