@@ -3,9 +3,8 @@ import 'package:ecommerce/utils/constant/texts.dart';
 import 'package:ecommerce/utils/helper/function_helper.dart';
 import 'package:flutter/material.dart';
 
-
-class SecentionHeaderWidget extends StatelessWidget {
-  const SecentionHeaderWidget(
+class SecentionHeadingWidget extends StatelessWidget {
+  const SecentionHeadingWidget(
       {super.key,
       required this.title,
       this.buttonTitle = AppTexts.viewAll,

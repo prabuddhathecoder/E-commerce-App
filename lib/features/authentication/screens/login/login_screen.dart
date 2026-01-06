@@ -1,5 +1,5 @@
 import 'package:ecommerce/common/style/screen_padding.dart';
-import 'package:ecommerce/common/widget/login_signup/login_Divider.dart';
+import 'package:ecommerce/common/widget/login_signup/login_divider.dart';
 import 'package:ecommerce/common/widget/login_signup/socail_icons.dart';
 import 'package:ecommerce/features/authentication/screens/login/widget/login_form.dart';
 import 'package:ecommerce/features/authentication/screens/login/widget/login_header.dart';

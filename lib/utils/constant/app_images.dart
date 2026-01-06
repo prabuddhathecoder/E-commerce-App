@@ -238,4 +238,7 @@ class AppImages {
   static const String nikeLogo = 'assets/brands/nike.png';
   static const String northStarLogo = 'assets/brands/north_star.jpg';
   static const String poloLogo = 'assets/brands/polo.png';
+
+  //Profile
+  static const String user = "assets/logo/user.png";
 }

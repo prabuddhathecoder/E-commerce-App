@@ -1,4 +1,4 @@
-import 'package:ecommerce/features/authentication/controller/home_controller.dart';
+import 'package:ecommerce/features/shop/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_instance/src/extension_instance.dart';

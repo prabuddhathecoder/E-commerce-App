@@ -1,8 +1,8 @@
 import 'package:ecommerce/common/widget/custome_shape/clipper/rounded_clipper.dart';
 import 'package:flutter/material.dart';
 
-class CustomeRoundedContainer extends StatelessWidget {
-  const CustomeRoundedContainer({super.key, required this.child});
+class CustomeHeader extends StatelessWidget {
+  const CustomeHeader({super.key, required this.child});
   final Widget child;
   @override
   Widget build(BuildContext context) {

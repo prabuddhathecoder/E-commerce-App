@@ -1,6 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:ecommerce/common/widget/images/rouned_Image.dart';
-import 'package:ecommerce/features/authentication/controller/home_controller.dart';
+import 'package:ecommerce/common/widget/images/rounded_image.dart';
+import 'package:ecommerce/features/shop/controller/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';

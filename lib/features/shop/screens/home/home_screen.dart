@@ -1,18 +1,17 @@
 import 'package:ecommerce/common/widget/layout/app_grid_layout.dart';
 import 'package:ecommerce/common/widget/product/product_carts/product_vertical_cart.dart';
 import 'package:ecommerce/common/widget/texts/secention_herader.dart';
-import 'package:ecommerce/features/authentication/screens/shop/home/widget/banner_dot_slider.dart';
-import 'package:ecommerce/features/authentication/screens/shop/home/widget/home_appbar_widget.dart';
-import 'package:ecommerce/features/authentication/screens/shop/home/widget/home_category_widget.dart';
-import 'package:ecommerce/features/authentication/screens/shop/home/widget/home_header_widget.dart';
-import 'package:ecommerce/features/authentication/screens/shop/home/widget/home_promo_slider.dart';
-import 'package:ecommerce/features/authentication/screens/shop/home/widget/search_bar_widget.dart';
+import 'package:ecommerce/features/shop/screens/home/widget/banner_dot_slider.dart';
+import 'package:ecommerce/features/shop/screens/home/widget/home_appbar_widget.dart';
+import 'package:ecommerce/features/shop/screens/home/widget/home_category_widget.dart';
+import 'package:ecommerce/common/widget/custome_shape/primary_header_widget.dart';
+import 'package:ecommerce/features/shop/screens/home/widget/home_promo_slider.dart';
+import 'package:ecommerce/features/shop/screens/home/widget/search_bar_widget.dart';
 import 'package:ecommerce/utils/constant/app_images.dart';
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:ecommerce/utils/constant/texts.dart';
 
 import 'package:flutter/material.dart';
-
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -30,7 +29,7 @@ class HomeScreen extends StatelessWidget {
                   //color: Colors.red,
                   height: AppSizes.homePrimaryHeaderHeight,
                 ),
-                const HomeHeaderWidget(
+                const PrimaryHeaderWidget(
                   height: AppSizes.homePrimaryHeaderHeight,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -72,7 +71,7 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(
                     height: AppSizes.spaceBtwSections,
                   ),
-                  const SecentionHeaderWidget(
+                  const SecentionHeadingWidget(
                     title: AppTexts.popularProducts,
                   ),
                   const SizedBox(

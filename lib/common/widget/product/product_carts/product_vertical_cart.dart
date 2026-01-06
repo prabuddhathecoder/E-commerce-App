@@ -1,9 +1,8 @@
 import 'package:ecommerce/common/style/shadow.dart';
 import 'package:ecommerce/common/widget/custome_shape/rounded_container.dart';
 import 'package:ecommerce/common/widget/icons/circular_icons.dart';
-import 'package:ecommerce/common/widget/images/rouned_Image.dart';
+import 'package:ecommerce/common/widget/images/rounded_image.dart';
 import 'package:ecommerce/common/widget/texts/brand_title_text_with_icon.dart';
-import 'package:ecommerce/common/widget/texts/brands_title_text.dart';
 import 'package:ecommerce/common/widget/texts/product_price_text.dart';
 import 'package:ecommerce/common/widget/texts/product_title_text.dart';
 import 'package:ecommerce/utils/constant/app_colors.dart';
@@ -32,6 +31,7 @@ class ProductVerticalCard extends StatelessWidget {
           boxShadow: CustomeShadow.productShadow,
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             RoundedContainer(
               height: 180,
@@ -103,7 +103,7 @@ class ProductVerticalCard extends StatelessWidget {
                 Container(
                   height: AppSizes.iconLg * 1.2,
                   width: AppSizes.iconLg * 1.2,
-              decoration: const BoxDecoration(    
+                  decoration: const BoxDecoration(
                       color: AppColors.primary,
                       borderRadius: BorderRadius.only(
                           bottomRight:

@@ -1,6 +1,6 @@
 import 'package:ecommerce/common/widget/btn/custome_btn.dart';
 import 'package:ecommerce/common/style/screen_padding.dart';
-import 'package:ecommerce/common/widget/login_signup/login_Divider.dart';
+import 'package:ecommerce/common/widget/login_signup/login_divider.dart';
 import 'package:ecommerce/common/widget/login_signup/socail_icons.dart';
 import 'package:ecommerce/features/authentication/screens/signup/verify_email_screen.dart';
 import 'package:ecommerce/features/authentication/screens/signup/widget/SignUpform_widget.dart';

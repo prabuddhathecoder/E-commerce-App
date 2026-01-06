@@ -1,4 +1,4 @@
-import 'package:ecommerce/common/widget/custome_shape/circular_Container.dart';
+import 'package:ecommerce/common/widget/custome_shape/circular_container.dart';
 import 'package:ecommerce/utils/constant/app_colors.dart';
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:ecommerce/utils/helper/function_helper.dart';

@@ -1,12 +1,11 @@
-import 'package:ecommerce/common/widget/custome_shape/Rounded_Container.dart';
-import 'package:ecommerce/common/widget/custome_shape/custome_rounded_Home_container.dart';
-import 'package:ecommerce/common/widget/custome_shape/circular_Container.dart';
+import 'package:ecommerce/common/widget/custome_shape/custome_header.dart';
+import 'package:ecommerce/common/widget/custome_shape/circular_container.dart';
 import 'package:ecommerce/utils/constant/app_colors.dart';
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:flutter/material.dart';
 
-class HomeHeaderWidget extends StatelessWidget {
-  const HomeHeaderWidget({
+class PrimaryHeaderWidget extends StatelessWidget {
+  const PrimaryHeaderWidget({
     super.key,
     required this.child,
     required this.height,
@@ -16,7 +15,7 @@ class HomeHeaderWidget extends StatelessWidget {
   final double height;
   @override
   Widget build(BuildContext context) {
-    return CustomeRoundedContainer(
+    return CustomeHeader(
       child: Container(
         height: height,
         color: AppColors.primary,
