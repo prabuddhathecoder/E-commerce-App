@@ -1,7 +1,5 @@
 import 'package:ecommerce/common/widget/custome_shape/primary_header_widget.dart';
-import 'package:ecommerce/common/widget/images/circular_image.dart';
 import 'package:ecommerce/common/widget/images/user_circular_image.dart';
-import 'package:ecommerce/utils/constant/app_images.dart';
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:flutter/material.dart';
 

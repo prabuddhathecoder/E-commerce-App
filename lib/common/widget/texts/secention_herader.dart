@@ -17,7 +17,7 @@ class SecentionHeadingWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final bool dark = FunctionHelper.isDarkMode(context);
+    final bool dark = HelperFunction.isDarkMode(context);
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [

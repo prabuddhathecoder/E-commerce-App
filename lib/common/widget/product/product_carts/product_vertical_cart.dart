@@ -5,11 +5,13 @@ import 'package:ecommerce/common/widget/images/rounded_image.dart';
 import 'package:ecommerce/common/widget/texts/brand_title_text_with_icon.dart';
 import 'package:ecommerce/common/widget/texts/product_price_text.dart';
 import 'package:ecommerce/common/widget/texts/product_title_text.dart';
+import 'package:ecommerce/features/shop/screens/product_details.dart/product_details.dart';
 import 'package:ecommerce/utils/constant/app_colors.dart';
 import 'package:ecommerce/utils/constant/app_images.dart';
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:ecommerce/utils/helper/function_helper.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 class ProductVerticalCard extends StatelessWidget {
@@ -19,9 +21,10 @@ class ProductVerticalCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final bool dark = FunctionHelper.isDarkMode(context);
+    final bool dark = HelperFunction.isDarkMode(context);
     return InkWell(
-      onTap: () {},
+      onTap: () =>
+          Get.to(() => const ProductDetailsScreen(productId: 'sample_id')),
       child: Container(
         padding: const EdgeInsets.all(1),
         width: 180,

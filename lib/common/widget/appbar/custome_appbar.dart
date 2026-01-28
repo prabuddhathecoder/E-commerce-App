@@ -21,16 +21,21 @@ class CustomeAppBar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    bool dark = FunctionHelper.isDarkMode(context);
+    bool dark = HelperFunction.isDarkMode(context);
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: AppSizes.md),
       child: AppBar(
         automaticallyImplyLeading: false,
         title: title,
         leading: showBackArrow
-            ? Icon(
-                Icons.arrow_back,
-                color: dark ? AppColors.white : AppColors.dark,
+            ? InkWell(
+                onTap: () {
+                  Navigator.pop(context);
+                }, 
+                child: Icon(
+                  Icons.arrow_back,
+                  color: dark ? AppColors.white : AppColors.dark,
+                ),
               )
             : leadingIcon != null
                 ? IconButton(

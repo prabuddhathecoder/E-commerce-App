@@ -1,11 +1,14 @@
 
 import 'package:ecommerce/common/widget/texts/secention_herader.dart';
+import 'package:ecommerce/features/personalization/screens/address/addess_screen.dart';
 import 'package:ecommerce/features/personalization/screens/profile/widget/profile_header_widget.dart';
 import 'package:ecommerce/features/personalization/screens/profile/widget/profile_heading_Tile.dart';
 import 'package:ecommerce/features/personalization/screens/profile/widget/setting_menu_tile.dart';
 
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/src/extension_navigation.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -31,7 +34,8 @@ class ProfileScreen extends StatelessWidget {
                     title: 'Account Settings',
                     showActionButton: false,
                   ),
-                  const SettingMenuTile(
+                  SettingMenuTile(
+                    onTap:()=> Get.to(() => const AddessScreen()),
                     title: 'My Addrass',
                     subTitle: 'Set Homw Delivery Address',
                     icon: Iconsax.safe_home,

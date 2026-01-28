@@ -10,7 +10,7 @@ class PolicyAndTerm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isdark = FunctionHelper.isDarkMode(context);
+    final isdark = HelperFunction.isDarkMode(context);
     return Row(
       children: [
         Checkbox(value: true, onChanged: (val) {}),

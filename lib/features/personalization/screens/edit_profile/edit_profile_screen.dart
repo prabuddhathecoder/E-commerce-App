@@ -3,7 +3,6 @@ import 'package:ecommerce/common/widget/appbar/custome_appbar.dart';
 import 'package:ecommerce/common/widget/texts/secention_herader.dart';
 import 'package:ecommerce/features/personalization/screens/edit_profile/widget/edit_items_menu.dart';
 import 'package:ecommerce/features/personalization/screens/edit_profile/widget/edit_profile_with_icon.dart';
-import 'package:ecommerce/utils/constant/app_colors.dart';
 
 import 'package:ecommerce/utils/constant/sizes.dart';
 import 'package:flutter/material.dart';

@@ -13,7 +13,7 @@ class SearchBarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    bool dark = FunctionHelper.isDarkMode(context);
+    bool dark = HelperFunction.isDarkMode(context);
     return Positioned(
       bottom: 0,
       right: AppSizes.spaceBtwItems,

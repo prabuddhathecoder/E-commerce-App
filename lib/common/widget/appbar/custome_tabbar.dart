@@ -11,7 +11,7 @@ class CustomeTabbar extends StatelessWidget implements PreferredSizeWidget {
   final List<Widget> tabs;
   @override
   Widget build(BuildContext context) {
-    final dark = FunctionHelper.isDarkMode(context);
+    final dark = HelperFunction.isDarkMode(context);
     return Material(
       color: dark ? AppColors.black : AppColors.white,
       child: TabBar(

@@ -25,7 +25,7 @@ class CircularImageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = FunctionHelper.isDarkMode(context);
+    final dark = HelperFunction.isDarkMode(context);
 
     return Container(
         width: width,

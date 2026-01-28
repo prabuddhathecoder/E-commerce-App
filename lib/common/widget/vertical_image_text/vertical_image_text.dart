@@ -19,7 +19,7 @@ class VerticalImageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    bool dark = FunctionHelper.isDarkMode(context);
+    bool dark = HelperFunction.isDarkMode(context);
 
     return InkWell(
       onTap: callback,

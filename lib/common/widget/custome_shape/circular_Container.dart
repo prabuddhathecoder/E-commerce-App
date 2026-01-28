@@ -2,14 +2,15 @@ import 'package:ecommerce/utils/constant/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class CircularContainer extends StatelessWidget {
-  const CircularContainer(
-      {super.key,
-      this.height = 400,
-      this.width = 400,
-      this.backgroundColor = AppColors.white,
-      this.padding,
-      this.margin,
-      this.child});
+  const CircularContainer({
+    super.key,
+    this.height = 400,
+    this.width = 400,
+    this.backgroundColor = AppColors.white,
+    this.padding,
+    this.margin,
+    this.child,
+  });
 
   final double height, width;
   final Color backgroundColor;

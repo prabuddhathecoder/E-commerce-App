@@ -15,7 +15,7 @@ class BrandShowcase extends StatelessWidget {
   // final BrandModel brand;
   @override
   Widget build(BuildContext context) {
-    final dark = FunctionHelper.isDarkMode(context);
+    final dark = HelperFunction.isDarkMode(context);
     return InkWell(
       onTap: () => {},
       child: RoundedContainer(
